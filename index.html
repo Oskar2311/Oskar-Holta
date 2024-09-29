@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Sacramento&display=swap" rel="stylesheet">
+        <style>
+
+            body{
+                margin: 0;
+                background-color: #f4f6fc;
+                font-family: "Montserrat",sans-serif;
+                text-align: center;
+            }
+
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 30px auto;
+            }
+
+            .navbar{
+                grid-column: 2 / 12;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .oskar-holta{
+                background-color: #895e4e;
+                color: #f4e8d7;
+                border: 1px solid black;
+                font-weight: bold;
+                
+            }
+
+            .navbar > a{      
+                font-size: 25px;         
+                border-radius: 10px;
+                padding: 3px;
+                margin-top: 5px ;
+                height: 28px;               
+            }
+
+            .link{
+                border: 1px solid #f4f6fc;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            .link:hover {
+                background-color: #895e4e;
+                color: #f4e8d7;
+                border: 1px solid black;
+            }
+
+            .headtext{
+                grid-column: 2 / 12;
+                align-self: center;
+            }
+
+            .headtext > h1{
+                font-size: 150px;
+                margin-bottom: 0;   
+                margin-top: 0;
+                font-family: "Sacramento", cursive;
+                font-weight: 2;
+            }
+            
+            h3{
+                font-size: 35px;
+                margin-top: 0;
+                font-weight: 1;
+                letter-spacing: 3px;
+            }
+
+            .leafs1{
+                grid-column-start: 1;
+                display:flex;
+                flex-direction: column;
+
+
+            }
+
+            .leafs2{
+                grid-column: 12;
+                justify-self: end;
+                display:flex;
+                flex-direction: column;
+
+            }
+
+            .container-aboutme{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            }
+
+            .aboutme-text{
+                grid-column: 5 / 9;
+            }
+
+            .ProfilePic{
+                border-radius: 50%;
+                margin-top: 100px;
+            }
+
+            .text-aboutme{
+                margin-top: 50px;
+            }
+
+            hr{
+                border: 0;
+                height: 1px;
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+
+            .contact{
+                height: 200px;
+                background-color: #895e4e;
+            }
+
+            .contactcontainer{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 100px 100px;
+                align-content: center;
+            }
+
+            .contactme{
+                grid-column: 5 / 9;
+                grid-row: 1;
+                padding: 45px;
+            }
+
+            .contactme > a{
+                background-color: #f4e8d7;
+                border-radius: 10px;
+                padding: 15px;
+                color: black;
+                font-size: 35px;
+                margin-top: 0;
+                font-weight: 1;
+                letter-spacing: 3px;
+            }
+
+            .contactme > a:hover{
+                color: #895e4e;
+            }
+
+
+            .linkedin > a{
+                color: #f4e8d7;
+
+            }
+
+            .linkedin{
+                grid-row: 2;
+                grid-column:6;
+                align-self: center;
+                justify-self: end;
+                margin-right: 20px;
+            }
+
+            .twitter > a{
+                color: #f4e8d7;
+
+            }
+
+            .twitter{
+                grid-row: 2;
+                grid-column:7;
+                align-self: center;
+                justify-self: start;
+                margin-left: 20px;
+            }
+
+            footer{
+                background-color: #895e4e;
+                height: 30px;
+                color: #f4e8d7;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        
+        <!-- Header -->
+        <section id="header" class="header">
+            <div class="container">
+                <div class="navbar">
+                    <a href="./Portfolio.html" class="oskar-holta">Oskar Holta</a>
+                    <a href="" class="link">Resumé</a>
+                    <a href=""class="link">Projects</a>
+                    <a href=""class="link">About me</a>
+                </div>
+                <div class="leafs1">
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                </div>
+                <div class="headtext">
+                    <h1>I'm Oskar</h1>
+                    <h3>a Web Developer</h3>
+                </div>
+                <div class="leafs2">                    
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="about-me">
+            <div class="container-aboutme">
+                <div class="leafs1">
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                </div>
+                <div class="Profilepic">
+
+                </div>
+                <div class="aboutme-text">
+                    <img src="./Online Resume/ProfilePic/profile.jpg" alt="" width="200px" class="ProfilePic">
+                    <p class="text-aboutme">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-aboutme">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="leafs2">                    
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/3 leafs.jpg" alt="" height="200px" width="200px">
+                        <img src="./Pics/2 leafs.jpg" alt="" height="200px" width="200px">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contactcontainer">
+                <div class="contactme">
+                    <a href="Oskar.Holta@Outlook.com">CONTACT ME</a>
+                </div>
+                <div class="linkedin">
+                    <a href="">Linkedin</a>
+                </div>
+                <div class="twitter">
+                    <a href="">Twitter</a>
+                </div>
+            </div>
+        </section>
+
+    <footer>© Oskar Holta. All rights reserved</footer>
+    </body>
+</html>
