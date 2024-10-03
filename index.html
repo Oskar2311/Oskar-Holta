@@ -127,7 +127,7 @@
             .contactcontainer{
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-                grid-template-rows: 100px 100px;
+                grid-template-rows: 100px 100px 100px;
                 align-content: center;
             }
 
@@ -189,8 +189,13 @@
             @media only screen and (max-width: 1300px){
                 
 
-                    /* Mobilkoden här */
-                    
+            /* Mobilkoden här */
+
+            
+            .navbar > a{      
+                font-size: 40px;         
+                height: 43px;               
+            }
 
             .leafs1{
                 display:none;
@@ -212,15 +217,36 @@
             }
 
             .aboutme-text{
-                grid-column: 3 / 11;
+                grid-column: 2 / 12;
                 margin-bottom: 100px;
+                font-size: 1.4rem;
+            }
+
+            .contact{
+                height: 400px;
+                background-color: #895e4e;
             }
 
             .contactme{
-                grid-column: 4 / 10;
-                margin-top: 20px;
+                grid-column: 2 / 12;
+                margin-top: 50px;
             }
 
+            .contactme > a{
+                padding: 30px;
+                font-size: 70px;
+            }
+
+            .linkedin{
+                grid-row: 5;
+                font-size: 1.4rem;
+            }
+
+
+            .twitter{
+                grid-row: 5;
+                font-size: 1.4rem;
+            }
 
 
             }
